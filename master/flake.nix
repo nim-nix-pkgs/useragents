@@ -1,5 +1,5 @@
 {
-  description = ''User Agent parser for nim.'';
+  description = ''Parses users agents in nim.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-useragents-master.flake = false;
   inputs.src-useragents-master.owner = "treeform";
-  inputs.src-useragents-master.ref   = "refs/heads/master";
+  inputs.src-useragents-master.ref   = "master";
   inputs.src-useragents-master.repo  = "useragents";
   inputs.src-useragents-master.type  = "github";
   
